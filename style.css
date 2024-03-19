@@ -9,44 +9,60 @@ body {
     color: white;
     font-size: 32px;
     font-weight: bold;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+.title_box:hover {
+    text-decoration: underline;
 }
 
 .city_box, .artist_box {
     margin: 2em auto;
-    width: 1200px;
+    width: 1300px;
 }
 
-.city-scrolling_container {
+.city-scrolling_container, .artist-scrolling_container {
+    margin: 1em 0;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
     color: white;
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .city-scrolling_card, .artist-scrolling_card {
-    flex: 0 0 auto;
-    border: solid 1px white;
-    border-radius: 15px;
-    margin: 10px;
-    width: 200px;
-    height: 200px;
+    display: flex;
+    border-radius: 5%;
+    margin: 5px;
+    width: 250px;
+    height: 280px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1D1B1B;
+    transition: 300ms;
 }
 
-.artist-scrolling_container {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    color: white;
-    font-size: 16px;
-    text-align: center;
+.city-scrolling_card:hover, .artist-scrolling_card:hover {
+    background-color: #2d2b2b;
+}
+
+.city-scrolling_card img {
+    border-radius: 5%;
+}
+
+.artist-scrolling_card img {
+    border-radius: 50%;
 }
 
 img{
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     margin: auto;
+    box-shadow: 0 0 18px -5px black;
 }
 
 .city-scrolling_container::-webkit-scrollbar, .artist-scrolling_container::-webkit-scrollbar {
