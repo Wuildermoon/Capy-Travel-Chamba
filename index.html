@@ -7,58 +7,88 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <div class="header_page">
-            <div class="logo">
-                <h1><img src="logo.jpg" alt=""></h1>
+    <body>
+        <header>
+            <div class="header_page">
+                <div class="logo">
+                    <h1><img src="logo.jpg" alt=""></h1>
+                </div>
+                <div class="search_box">
+                    <input class="search_bar" type="search" name="buscar" id="buscar">
+                    <button class="search_btn" onclick="mostrarResultados()">Buscar</button>
+                </div>
+                <div>
+                    <nav class="navbar">
+                        <ul class="menuPrincipal">
+                            <li><a href="" class="navbtn">Encontrar Eventos</a></li>
+                            <li><a href="" class="navbtn">Crear un Evento</a></li>
+                            <li><a href="" class="navbtn">Login</a></li>   
+                            <li><a href="" class="navbtn">Registrarse</a></li>
+                        </ul>
+                    </nav>  
+                </div>
             </div>
-            <div class="search_box">
-                <input class="search_bar" type="search" name="buscar" id="buscar">
-                <button class="search_btn" onclick="mostrarResultados()">Buscar</button>
-            </div>
-            <div>
-                <nav class="navbar">
-                    <ul class="menuPrincipal">
-                        <li><a href="" class="navbtn">Encontrar Eventos</a></li>
-                        <li><a href="" class="navbtn">Crear un Evento</a></li>
-                        <li><a href="" class="navbtn">Login</a></li>   
-                        <li><a href="" class="navbtn">Registrarse</a></li>
-                    </ul>
-                </nav>  
-            </div>
-        </div>
-    </header>
-
-    <section class="artist_box">
-        <a href="" class="title_box">Novias de David <span>></span></a>
-        <section class="city-scrolling_container">
-            <div class="city-scrolling_card"><img src="Captura de pantalla 2024-03-12 164807.png" alt=""><p class="artist_name">Novia 1</p></div>
-            <div class="city-scrolling_card"><img src="Captura de pantalla 2024-03-12 165009.png" alt=""><p class="artist_name">Novia 2</p></div>
-            <div class="city-scrolling_card"><img src="badbuni.jpg" alt=""><p class="artist_name">Novia 3</p></div>
-            <div class="city-scrolling_card"><img src="de wiken.jpg" alt=""><p class="artist_name">Novia 4</p></div>
-            <div class="city-scrolling_card"><img src="taylor fresa.jpg" alt=""><p class="artist_name">Novia 5</p></div>
+        </header>
+        <section id="trends" class="slider_box">
+            <a href="" class="title_box">Tendencias<span> > </span></a>
+            <section class="scrolling_container">
+                <div id="" class="scrolling_card"><img src="expoestudios.jpeg" alt="" class="slider_img"><div class="slider_info"><h2>ExpoEstudios BOGOTÁ 2024</h2><h3>sab, abr.5, 10:00</h3><p>Sonesta Hotel Bogota - Bogotá</p><p>Gratis</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 2</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 3</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 4</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+            </section>
         </section>
-    </section>
-    <section class="city_box">
-        <a href="" class="title_box">CIUDADES <span>></span></a>
-        <section class="city-scrolling_container">
-            <div class="city-scrolling_card"><img src="Captura de pantalla 2024-03-12 164807.png" alt=""><p class="artist_name">Cali</p></div>
-            <div class="city-scrolling_card"><img src="Captura de pantalla 2024-03-12 164807.png" alt=""><p class="artist_name">Bogota</p></div>
-            <div class="city-scrolling_card"><img src="Captura de pantalla 2024-03-12 164807.png" alt=""><p class="artist_name">Caracas</p></div>
-            <div class="city-scrolling_card"><img src="Captura de pantalla 2024-03-12 164807.png" alt=""><p class="artist_name">New York</p></div>
-            <div class="city-scrolling_card"><img src="Captura de pantalla 2024-03-12 164807.png" alt=""><p class="artist_name">Paris</p></div>
+        <section id="made_for_you" class="slider_box">
+            <a href="" class="title_box">Hechos para ti<span> > </span></a>
+            <section class="scrolling_container">
+                <div id="" class="scrolling_card"><img src="expoestudios.jpeg" alt="" class="slider_img"><div class="slider_info"><h2>ExpoEstudios BOGOTÁ 2024</h2><h3>sab, abr.5, 10:00</h3><p>Sonesta Hotel Bogota - Bogotá</p><p>Gratis</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 2</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 3</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 4</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 5</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 6</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 7</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 8</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+            </section>
         </section>
-    </section>
-    <section class="artist_box">
-        <a href="" class="title_box">ARTISTAS <span>></span></a>
-        <section class="artist-scrolling_container">
-            <div class="artist-scrolling_card"><img src="de wiken.jpg" alt=""><p class="artist_name">The Weekend</p></div>
-            <div class="artist-scrolling_card"><img src="badbuni.jpg" alt=""><p class="artist_name">Bad Bunny</p></div>
-            <div class="artist-scrolling_card"><img src="taylor fresa.jpg" alt=""><p class="artist_name">Taylor Swift</p></div>
-            <div class="artist-scrolling_card"><img src="Captura de pantalla 2024-03-12 165009.png" alt=""><p class="artist_name">Keshi</p></div>
-            <div class="artist-scrolling_card"><img src="Captura de pantalla 2024-03-12 165009.png" alt=""><p class="artist_name">Feid</p></div>
+        <section id="comming_soon" class="slider_box">
+            <a href="" class="title_box">Proximamente<span> > </span></a>
+            <section class="scrolling_container">
+                <div id="" class="scrolling_card"><img src="expoestudios.jpeg" alt="" class="slider_img"><div class="slider_info"><h2>ExpoEstudios BOGOTÁ 2024</h2><h3>sab, abr.5, 10:00</h3><p>Sonesta Hotel Bogota - Bogotá</p><p>Gratis</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 2</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 3</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 4</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 5</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 6</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 7</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+                <div id="" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Evento 8</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
+            </section>
         </section>
-    </section>
-</body>
+        <section id="city" class="slider_box">
+            <a href="" class="title_box">Ciudades<span> > </span></a>
+            <section class="scrolling_container">
+                <div id="city" class="scrolling_card"><img src="" alt=""><div class="slider_info"><h2>Ciudad 1</h2><h3>Descubre eventos en Ciudad</h3></div></div>
+                <div id="city" class="scrolling_card"><img src="" alt=""><div class="slider_info"><h2>Ciudad 2</h2><h3>Descubre eventos en Ciudad</h3></div></div>
+                <div id="city" class="scrolling_card"><img src="" alt=""><div class="slider_info"><h2>Ciudad 3</h2><h3>Descubre eventos en Ciudad</h3></div></div>
+                <div id="city" class="scrolling_card"><img src="" alt=""><div class="slider_info"><h2>Ciudad 4</h2><h3>Descubre eventos en Ciudad</h3></div></div>
+                <div id="city" class="scrolling_card"><img src="" alt=""><div class="slider_info"><h2>Ciudad 5</h2><h3>Descubre eventos en Ciudad</h3></div></div>
+                <div id="city" class="scrolling_card"><img src="" alt=""><div class="slider_info"><h2>Ciudad 6</h2><h3>Descubre eventos en Ciudad</h3></div></div>
+                <div id="city" class="scrolling_card"><img src="" alt=""><div class="slider_info"><h2>Ciudad 7</h2><h3>Descubre eventos en Ciudad</h3></div></div>
+                <div id="city" class="scrolling_card"><img src="" alt=""><div class="slider_info"><h2>Ciudad 8</h2><h3>Descubre eventos en Ciudad</h3></div></div>
+            </section>
+        </section>
+        <section id="artist" class="slider_box">
+            <a href="" class="title_box">Artistas<span> > </span></a>
+            <section class="scrolling_container">
+                <div id="artist" class="scrolling_card"><img src="" alt=""><div class="slider_info"><h2>Artista 0</h2><h3>info</h3></div></div>
+                <div id="artist" class="scrolling_card"><img src="" alt=""><div class="slider_info"><h2>Artista 0</h2><h3>info</h3></div></div>
+                <div id="artist" class="scrolling_card"><img src="" alt=""><div class="slider_info"><h2>Artista 0</h2><h3>info</h3></div></div>
+                <div id="artist" class="scrolling_card"><img src="" alt=""><div class="slider_info"><h2>Artista 0</h2><h3>info</h3></div></div>
+                <div id="artist" class="scrolling_card"><img src="" alt=""><div class="slider_info"><h2>Artista 0</h2><h3>info</h3></div></div>
+                <div id="artist" class="scrolling_card"><img src="" alt=""><div class="slider_info"><h2>Artista 0</h2><h3>info</h3></div></div>
+                <div id="artist" class="scrolling_card"><img src="" alt=""><div class="slider_info"><h2>Artista 0</h2><h3>info</h3></div></div>
+                <div id="artist" class="scrolling_card"><img src="" alt=""><div class="slider_info"><h2>Artista 0</h2><h3>info</h3></div></div>
+            </section>
+        </section>
+    </body>
 </html>
