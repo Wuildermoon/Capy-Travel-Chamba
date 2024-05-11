@@ -1,94 +1,108 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capy Travel</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/capy_travel-logo.jpg" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css"> -->
 </head>
-    <body>
-        <header>
-            <div class="header_page">
-                <div class="logo">
-                    <h1><img src="logo.jpg" alt=""></h1>
-                </div>
-                <div class="search_box">
-                    <input class="search_bar" type="search" name="buscar" id="buscar">
-                    <button class="search_btn" onclick="mostrarResultados()">Buscar</button>
-                </div>
-                <div>
-                    <nav class="navbar">
-                        <ul class="menuPrincipal">
-                            <li><a href="" class="navbtn">Encontrar Eventos</a></li>
-                            <li><a href="" class="navbtn">Crear un Evento</a></li>
-                            <li><a href="" class="navbtn">Login</a></li>   
-                            <li><a href="" class="navbtn">Registrarse</a></li>
-                        </ul>
-                    </nav>  
-                </div>
+
+<body>
+    <main>
+        <header class="menu">
+            <figure class="menu__logo-figure">
+                <h1><img class="menu__logo-image" src="assets/capy_travel-logo.jpg" alt="Logo de Capy Travel"></h1>
+            </figure>
+            <nav class="menu__search-nav">
+                <input class="menu__search-input" type="search" name="search" id="search">
+                <button class="menu__search-button">Buscar</button>
+            </nav>
+            <!-- <button type="menu" class="categories_selector-button">Es</button>
+            <div class="categories_selector-list">
+                <a href="" class="categories_selector-category">Conciertos</a>
+                <a href="" class="categories_selector-category"></a>
+                <a href="" class="categories_selector-category"></a>
+                <a href="" class="categories_selector-category"></a>
+            </div> -->
+            <button type="menu" class="language_selector-button">Es</button>
+            <div class="language_selector-list">
+                <a href="" class="language_selector-language">Español</a>
+                <a href="" class="language_selector-language">English</a>
+                <a href="" class="language_selector-language">Português</a>
+                <a href="" class="language_selector-language">Français</a>
             </div>
+            
         </header>
-        <section id="trends" class="events_box">
-            <a href="" class="title_box">Tendencias<span> > </span></a>
-            <section class="events_container">
-                <div id="" class="event_card"><img src="expoestudios.jpeg" alt="" class="event_img"><div class="event_info"><h2>ExpoEstudios BOGOTÁ 2024</h2><h3>sab, abr.5, 10:00</h3><p>Sonesta Hotel Bogota - Bogotá</p><p>Gratis</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 2</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 2</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 2</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-            </section>
+        <section class="trends__section events__section-container">
+            <a href="" class="events__section-title">Tendencias</a>
+            <ul class="events__card-list">
+                <li class="event__card-list-item">
+                    <img class="event__card-image" src="assets/expoestudios.jpeg" alt="">
+                    <div class="event__card-info">
+                        <h2 class="event__card-title">ExpoEstudios BOGOTÁ 2024</h2>
+                        <h3 class="event__card-date">sab, abr.5, 10:00</h3>
+                        <p class="event__card-place">Sonesta Hotel Bogota - Bogotá</p>
+                        <p class="event__card-price">Gratis</p>
+                    </div>
+                </li>
+            </ul>
         </section>
-        <section id="made_for_you" class="events_box">
-            <a href="" class="title_box">Hechos para ti<span> > </span></a>
-            <section class="events_container">
-                <div id="" class="event_card"><img src="expoestudios.jpeg" alt="" class="event_img"><div class="event_info"><h2>ExpoEstudios BOGOTÁ 2024</h2><h3>sab, abr.5, 10:00</h3><p>Sonesta Hotel Bogota - Bogotá</p><p>Gratis</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 2</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 2</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 2</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 2</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 2</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 2</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 2</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-            </section>
+        <section class="made_for_you__section events__section-container">
+            <a href="" class="events__section-title">Hecho para ti</a>
+            <ul class="events__card-list">
+                <li class="event__card-list-item">
+                    <img class="event__card-image" src="assets/expoestudios.jpeg" alt="">
+                    <div class="event__card-info">
+                        <h2 class="event__card-title">ExpoEstudios BOGOTÁ 2024</h2>
+                        <h3 class="event__card-date">sab, abr.5, 10:00</h3>
+                        <p class="event__card-place">Sonesta Hotel Bogota - Bogotá</p>
+                        <p class="event__card-price">Gratis</p>
+                    </div>
+                </li>
+            </ul>
         </section>
-        <section id="comming_soon" class="events_box">
-            <a href="" class="title_box">Proximamente<span> > </span></a>
-            <section class="events_container">
-                <div id="" class="event_card"><img src="expoestudios.jpeg" alt="" class="event_img"><div class="event_info"><h2>ExpoEstudios BOGOTÁ 2024</h2><h3>sab, abr.5, 10:00</h3><p>Sonesta Hotel Bogota - Bogotá</p><p>Gratis</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 2</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 3</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 4</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 5</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 6</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 7</h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-                <div id="" class="event_card"><img src="" alt="" class="event_img"><div class="event_info"><h2>Evento 8/h2><h3>Fecha</h3><p>Ubicacion</p><p>Precio</p></div></div>
-            </section>
+        <section class="comming_soon__section events__section-container">
+            <a href="" class="events__section-title">Próximamente</a>
+            <ul class="events__card-list">
+                <li class="event__card-list-item">
+                    <img class="event__card-image" src="assets/expoestudios.jpeg" alt="">
+                    <div class="event__card-info">
+                        <h2 class="event__card-title">ExpoEstudios BOGOTÁ 2024</h2>
+                        <h3 class="event__card-date">sab, abr.5, 10:00</h3>
+                        <p class="event__card-place">Sonesta Hotel Bogota - Bogotá</p>
+                        <p class="event__card-price">Gratis</p>
+                    </div>
+                </li>
+            </ul>
         </section>
-        <section id="city" class="slider_box">
-            <a href="" class="title_box">Ciudades<span> > </span></a>
-            <section class="scrolling_container">
-                <div id="city" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Ciudad 1</h2><h3>Descubre eventos en Ciudad</h3></div></div>
-                <div id="city" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Ciudad 1</h2><h3>Descubre eventos en Ciudad</h3></div></div>
-                <div id="city" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Ciudad 1</h2><h3>Descubre eventos en Ciudad</h3></div></div>
-                <div id="city" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Ciudad 1</h2><h3>Descubre eventos en Ciudad</h3></div></div>
-                <div id="city" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Ciudad 1</h2><h3>Descubre eventos en Ciudad</h3></div></div>
-                <div id="city" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Ciudad 1</h2><h3>Descubre eventos en Ciudad</h3></div></div>
-                <div id="city" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Ciudad 1</h2><h3>Descubre eventos en Ciudad</h3></div></div>
-                <div id="city" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Ciudad 1</h2><h3>Descubre eventos en Ciudad</h3></div></div>
-            </section>
+        <section class="cities__section scrolling__section-container">
+            <a href="" class="scrolling__section-title">Ciudades</a>
+            <ul class="cities-list scrolling-card-list">
+                <li class="city-item scrolling-card-item">
+                    <img class="city-image scrolling-card-image" src="" alt="">
+                    <div class="city-info scrolling-card-info">
+                        <h2 class="city-name">Ciudad 0</h2>
+                        <p class="city-discover">Descubre eventos en Ciudad</p>
+                    </div>
+                </li>
+            </ul>
         </section>
-        <section id="artist" class="slider_box">
-            <a href="" class="title_box">Artistas<span> > </span></a>
-            <section class="scrolling_container">
-                <div id="artist" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Artista 0</h2><h3>info</h3></div></div>
-                <div id="artist" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Artista 0</h2><h3>info</h3></div></div>
-                <div id="artist" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Artista 0</h2><h3>info</h3></div></div>
-                <div id="artist" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Artista 0</h2><h3>info</h3></div></div>
-                <div id="artist" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Artista 0</h2><h3>info</h3></div></div>
-                <div id="artist" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Artista 0</h2><h3>info</h3></div></div>
-                <div id="artist" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Artista 0</h2><h3>info</h3></div></div>
-                <div id="artist" class="scrolling_card"><img src="" alt="" class="slider_img"><div class="slider_info"><h2>Artista 0</h2><h3>info</h3></div></div>
-            </section>
+        <section class="artists__section scrolling__section-container">
+            <a href="" class="scrolling__section-title">Artistas</a>
+            <ul class="artist-list scrolling-card-list">
+                <li class="artist-item scrolling-card-item">
+                    <img class="artist_img scrolling-card-image" src="" alt="">
+                    <div class="artist_info scrolling-card-info">
+                        <h2 class="artist_name">Artista 0</h2>
+                    </div>
+                </li>
+            </ul>
         </section>
-    </body>
+    </main>
+
+</body>
+
 </html>
